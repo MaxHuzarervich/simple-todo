@@ -4,11 +4,9 @@ import React from "react";
 export const Form = ({setInputText, setTodos, todos, inputText}) => {
 
     const inputTextHandler = (e) => {
-        debugger
         setInputText(e.target.value)
     }
     const submitTodoHandler = (e) => {
-        debugger
         e.preventDefault();
         setTodos([
             ...todos, {text: inputText, completed: false, id: Math.random() * 1000}
