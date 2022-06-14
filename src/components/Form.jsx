@@ -14,7 +14,6 @@ export const Form = ({setInputText, setTodos, todos, inputText, setStatus}) => {
     }
     const statusHandler = (e) => {
         setStatus(e.target.value);
-
     }
 
     return (

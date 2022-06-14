@@ -45,9 +45,9 @@ export function App() {
         }
     }
     return (
-        <div className="App">
+        <div>
             <header>
-                <h1>ToDo</h1>
+                <h1>TODOS</h1>
             </header>
             <Form
                 setStatus={setStatus}
